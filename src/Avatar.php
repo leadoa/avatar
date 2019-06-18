@@ -59,4 +59,10 @@ class Avatar {
         // 释放图片内存
         imagedestroy($img_res);
     }
+
+    public function showme()
+    {
+        echo 'deng hui';
+    }
+
 }
